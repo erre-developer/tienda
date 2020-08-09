@@ -1,8 +1,8 @@
 <?php
-	const BASE_URL = "http://localhost/tienda_virtual/";
+	const BASE_URL = "http://localhost/tienda_virtual";
 
 	//ZONA HORARIA
-	deta_default_timezone_set("America/Santiago");
+	//deta_default_timezone_set("America/Santiago");
 
 	//Variables DatabBase
 	const DB_HOST = "localhost";

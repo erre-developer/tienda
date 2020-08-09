@@ -15,41 +15,6 @@
 			$this->views->getView($this,"home",$data);
 		}
 
-		public function agregarUsuario()
-		{
-			$data = $this->model->insertUser("Salvador Foncea",59);
-			print_r($data);
-		}
-
-		public function verUsuario($id)
-		{
-			$data = $this->model->select_user($id);
-			print_r($data);
-		}
-
-		//llama todos los usuarios
-		public function usuarios()
-		{
-			//$data = $this->model->setUser("Richard",31);
-			$data = $this->model->select_all_users();
-			print_r($data);
-		}
-
-		//Actualiza usuario por id
-		public function actualizarUsuario()
-		{
-			//$data = $this->model->setUser("Richard",31);
-			$data = $this->model->updateUser(3,"Richad",30);
-			print_r($data);
-		}
-
-		//Actualiza usuario por id
-		public function eliminarUsuario($id)
-		{
-			//$data = $this->model->setUser("Richard",31);
-			$data = $this->model->deleteUser($id);
-			print_r($data);
-		}
-	}
+	}//end clas controllers Home
  ?>
 
