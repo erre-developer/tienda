@@ -14,6 +14,9 @@
         <div class="col-md-12">
           <div class="tile">
             <div class="tile-body">Create a beautiful dashboard</div>
+            <img src="<?php echo media();?>/images/tienda-online.png" alt="">
+<?php echo media();?>/images/tienda-online.svg
+<?php echo media();?>/images/tienda-online.svg
           </div>
         </div>
       </div>
