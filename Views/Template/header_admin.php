@@ -8,7 +8,7 @@
     <meta name="author" content="Erre Developer">
     <meta name="theme-color" content="#009688">
     <link rel="shortcut icon" href="<?php echo media();?>/images/favicon.ico">
-    <title><?php echo $data['tag_page'] ?></title>
+    <title><?php echo $data['page_tag'] ?></title>
     <!-- Main CSS-->
     <link rel="stylesheet" type="text/css" href="<?php echo media() ?>/css/main.css">
     <link rel="stylesheet" type="text/css" href="<?php echo media() ?>/css/style.css">

@@ -29,6 +29,12 @@
 		require_once($view_footer);
 	}
 
+	function getModal(string $nameModal, $data)
+	{
+		$view_modal = "Views/Template/Modals/{$nameModal}.php";
+		require_once $view_modal;
+	}
+
 	function strClean($strCadena)
 	{
 		$string = preg_replace(['/\s+/','/^\s|\s$/'], [' ',''], $strCadena);

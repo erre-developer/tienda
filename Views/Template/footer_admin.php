@@ -4,6 +4,7 @@
     <script src="<?php echo media() ?>/js/bootstrap.min.js"></script>
     <script src="<?php echo media() ?>/js/main.js"></script>
     <script src="<?php echo media() ?>/js/functions_admin.js"></script>
+    <script src="<?php echo media() ?>/js/functions_roles.js"></script>
     <!-- The javascript plugin to display page loading on top-->
     <script src="<?php echo media() ?>/js/plugins/pace.min.js"></script>
     <!-- Page specific javascripts-->
