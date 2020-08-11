@@ -14,6 +14,13 @@
 			$this->views->getView($this,"roles",$data);
 		}
 
+		public function getRoles()
+		{
+			$arrData = $this->model->selectRoles();
+			echo json_encode($arrData,JSON_UNESCAPED_UNICODE);
+			die();
+		}
+
 	}//end clas controllers Home
  ?>
 
